@@ -1,0 +1,130 @@
+body{
+	background : url('background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-size: 30px;
+	margin-top: 40px;
+}
+ul{
+	list-style: inline;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background : rgba(199,199,199,0.6);
+}
+li{
+	float: left;
+	/*margin: 20px;*/
+	padding: 0px 20px;
+}
+li:hover{
+	background: #fff;
+}
+img{
+	height: 400px;
+	width: 400px;
+/*	transition: all 1s;
+*/}
+
+.contra{
+	float:left;
+	align-content: center;
+	margin: 30px;
+}
+.pic{
+	text-align: center; 
+}
+.text{
+	background: rgba(200,250,209,.9);
+	width: 100px;
+	height: auto;
+	position: relative;
+	bottom: 200px;
+	left: 150px;
+	opacity:0;
+}
+img:hover{
+	opacity: .6;
+/*	border : 3px solid black;
+*/	/*transform: scale(1.01);*/
+}
+.contra:hover .text{
+	opacity: 1.0;
+}
+.container{
+	flex-wrap: wrap;
+
+}
+
+
+/*.navbar{
+	background-color: : rgba(d,c,e,.6);
+	color: white;
+}*/
+/*.text{
+	float : left;
+}*/
+/*
+img{
+	width: 400px;
+	height: 400px;
+	margin: 30px;
+	border : 2px solid black;
+	float: left;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;  
+	transform: translate(-50%, -50%);
+ 	text-align: center;
+
+}
+.text{
+	padding: 15px;
+  text-align: center;
+}
+.pic{
+	position: relative;
+}
+.pic span{
+	position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.contra{
+	padding: 20px 6px;
+  float: left;
+  width: 24.99999%;
+}
+span{
+	float: left;
+}
+div{
+	float : left;
+}
+/*
+.container{
+	flex-flow : wrap;
+	justify-content: space-between;
+}
+*
+{
+	box-sizing: border-box;
+}
+.navbar{
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+	background: black;
+	color: white;
+	text-decoration: none;
+	margin: 0;
+	float: left;
+}
+.navbar a{
+	color: white;
+	text-decoration: : none;
+}*/
